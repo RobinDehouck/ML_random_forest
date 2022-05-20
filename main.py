@@ -21,7 +21,8 @@ var_to_use = train.columns.tolist()
 var_to_use.remove('NAME_OF_THE_COLUMN_TO_PREDICT')
 print(f' Variables to use : {var_to_use}')
 
-rf = RandomForestRegressor() #Use RandomForestRegressor() if your target is defined by classes.
+rf = RandomForestRegressor() #Use RandomForestClassifier() if your target is defined by classes.
+                             # View potential parameters to improve your model.
 rf.fit(train[var_to_use], train['NAME_OF_THE_COLUMN_TO_PREDICT'])
 pred = rf.predict(test[var_to_use])
 test['pred'] = pred
