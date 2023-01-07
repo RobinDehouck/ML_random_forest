@@ -36,7 +36,7 @@ Finally, the script calculates the accuracy of the model's predictions using the
 Example Output
 Here is an example of the output that you might see when running the script:
 
-'''
+<pre><code>
 Accuracy: 0.88
               actual      pred
 0         0.000000  0.019231
@@ -44,5 +44,5 @@ Accuracy: 0.88
 2         0.666667  0.653846
 3         1.000000  0.980769
 4         0.666667  0.653846
-'''
+</pre></code>
 The first column shows the actual values of the target variable in the testing set, while the second column shows the model's predictions. The final line shows the overall accuracy of the model's predictions.
