@@ -1,4 +1,5 @@
-Random Forest Model
+*Random Forest Model*
+
 This repository contains a script that trains and evaluates a random forest model using the sklearn library in Python. The model can be used for either classification or regression tasks, depending on the type of target variable.
 
 Dependencies
